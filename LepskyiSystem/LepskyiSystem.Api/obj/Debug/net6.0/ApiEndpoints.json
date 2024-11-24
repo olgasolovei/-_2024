@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "LepskyiSystem.Api.Controllers.CraneController",
+    "Method": "PostCrateData",
+    "RelativePath": "api/crane",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensorDataDto",
+        "Type": "LepskyiSystem.Dto.RawDataDto.CraneSensorRawDataDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

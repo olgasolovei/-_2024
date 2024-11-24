@@ -1,0 +1,11 @@
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\bin\Debug\net6.0\LepskyiSystem.Dto.deps.json
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\bin\Debug\net6.0\LepskyiSystem.Dto.dll
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\bin\Debug\net6.0\LepskyiSystem.Dto.pdb
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.AssemblyInfoInputs.cache
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.AssemblyInfo.cs
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.csproj.CoreCompileInputs.cache
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.dll
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\refint\LepskyiSystem.Dto.dll
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\LepskyiSystem.Dto.pdb
+C:\Users\sirko\source\repos\LepskyiSystem\LepskyiSystem.Dto\obj\Debug\net6.0\ref\LepskyiSystem.Dto.dll

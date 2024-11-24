@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "yKMzMw7lJ9o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Wpf\\LepskyiSystem.Wpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sirko\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\grapecity.documents.imaging\\7.2.3\\grapecity.documents.imaging.7.2.3.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\grapecity.documents.pdf\\7.2.3\\grapecity.documents.pdf.7.2.3.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.36\\microsoft.aspnetcore.connections.abstractions.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\6.0.36\\microsoft.aspnetcore.http.connections.client.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\6.0.36\\microsoft.aspnetcore.http.connections.common.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\6.0.36\\microsoft.aspnetcore.signalr.client.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\6.0.36\\microsoft.aspnetcore.signalr.client.core.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\6.0.36\\microsoft.aspnetcore.signalr.common.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\6.0.36\\microsoft.aspnetcore.signalr.protocols.json.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\microsoft.extensions.dependencyinjection.6.0.2.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.features\\6.0.36\\microsoft.extensions.features.6.0.36.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.logging\\6.0.1\\microsoft.extensions.logging.6.0.1.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.options\\6.0.1\\microsoft.extensions.options.6.0.1.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.1\\microsoft.extensions.primitives.6.0.1.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.2\\system.diagnostics.diagnosticsource.6.0.2.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\sirko\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

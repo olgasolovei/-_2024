@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|c:\\users\\sirko\\source\\repos\\lepskyisystem\\lepskyisystem.api\\services\\cranedataaccountingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|solutionrelative:lepskyisystem.api\\services\\cranedataaccountingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|c:\\users\\sirko\\source\\repos\\lepskyisystem\\lepskyisystem.api\\hubs\\cranedatahub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|solutionrelative:lepskyisystem.api\\hubs\\cranedatahub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|c:\\users\\sirko\\source\\repos\\lepskyisystem\\lepskyisystem.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|solutionrelative:lepskyisystem.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|c:\\users\\sirko\\source\\repos\\lepskyisystem\\lepskyisystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AE5340-8690-431A-BBCC-B3F50C1B4C4A}|LepskyiSystem.Api\\LepskyiSystem.Api.csproj|solutionrelative:lepskyisystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CraneDataAccountingService.cs",
+              "DocumentMoniker": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Services\\CraneDataAccountingService.cs",
+              "RelativeDocumentMoniker": "LepskyiSystem.Api\\Services\\CraneDataAccountingService.cs",
+              "ToolTip": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Services\\CraneDataAccountingService.cs",
+              "RelativeToolTip": "LepskyiSystem.Api\\Services\\CraneDataAccountingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:17:06.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CraneDataHub.cs",
+              "DocumentMoniker": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Hubs\\CraneDataHub.cs",
+              "RelativeDocumentMoniker": "LepskyiSystem.Api\\Hubs\\CraneDataHub.cs",
+              "ToolTip": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Hubs\\CraneDataHub.cs",
+              "RelativeToolTip": "LepskyiSystem.Api\\Hubs\\CraneDataHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:16:47.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Program.cs",
+              "RelativeDocumentMoniker": "LepskyiSystem.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Program.cs",
+              "RelativeToolTip": "LepskyiSystem.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:50:35.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "LepskyiSystem.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\sirko\\source\\repos\\LepskyiSystem\\LepskyiSystem.Api\\Startup.cs",
+              "RelativeToolTip": "LepskyiSystem.Api\\Startup.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwDEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:50:56.883Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

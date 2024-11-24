@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CraneSimulator/1.0.0": {
+        "dependencies": {
+          "LepskyiSystem.Dto": "1.0.0"
+        },
+        "runtime": {
+          "CraneSimulator.dll": {}
+        }
+      },
+      "LepskyiSystem.Dto/1.0.0": {
+        "runtime": {
+          "LepskyiSystem.Dto.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CraneSimulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LepskyiSystem.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

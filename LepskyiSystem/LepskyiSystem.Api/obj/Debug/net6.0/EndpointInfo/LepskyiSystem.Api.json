@@ -1,0 +1,86 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "LepskyiSystem.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/crane": {
+      "post": {
+        "tags": [
+          "Crane"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CraneSensorRawDataDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CraneSensorRawDataDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CraneSensorRawDataDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CraneSensorRawDataDto": {
+        "type": "object",
+        "properties": {
+          "sensorId": {
+            "type": "string",
+            "nullable": true
+          },
+          "positionX": {
+            "type": "number",
+            "format": "double"
+          },
+          "positionY": {
+            "type": "number",
+            "format": "double"
+          },
+          "positionZ": {
+            "type": "number",
+            "format": "double"
+          },
+          "velocity": {
+            "type": "number",
+            "format": "double"
+          },
+          "direction": {
+            "type": "number",
+            "format": "double"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "vibrationLevel": {
+            "type": "number",
+            "format": "double"
+          },
+          "loadLevel": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

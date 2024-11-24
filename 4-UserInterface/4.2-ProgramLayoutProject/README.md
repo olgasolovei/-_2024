@@ -1,6 +1,6 @@
 # Проект макету
 
-![diagram](../../images/4.2.1 ProgramLayoutProject.png)
+![diagram](../../images/4.2.1%20ProgramLayoutProject.png)
 
 ## NFR_1: Екран авторизації  
 Основне вікно для входу користувача в систему:
@@ -16,7 +16,7 @@
 
 ---
 
-![diagram](../../images/4.2.2 ProgramLayoutProject.png)
+![diagram](../../images/4.2.2%20ProgramLayoutProject.png)
 
 ## NFR_2: Екран моніторингу  
 Основний екран для перегляду стану крана та аномалій:
@@ -31,7 +31,7 @@
 
 ---
 
-![diagram](../../images/4.2.3 ProgramLayoutProject.png)
+![diagram](../../images/4.2.3%20ProgramLayoutProject.png)
 
 ## NFR_3: Екран звітів  
 Екран для роботи з історією даних та генерацією звітів:

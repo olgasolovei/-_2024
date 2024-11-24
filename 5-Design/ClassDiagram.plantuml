@@ -1,0 +1,87 @@
+@startuml
+interface INotifyPropertyChanged {
+    + event PropertyChangedEventHandler? PropertyChanged
+}
+
+interface ICommand {
+    + event EventHandler? CanExecuteChanged
+    + bool CanExecute(object? parameter)
+    + void Execute(object? parameter)
+}
+
+class RelayCommand {
+    - Action<object?> execute
+    - Func<object?, bool> canExecute
+    + RelayCommand(Action<object?>, Func<object?, bool>)
+    + bool CanExecute(object?)
+    + void Execute(object?)
+    + event EventHandler? CanExecuteChanged
+}
+
+RelayCommand ..|> ICommand
+
+INotifyPropertyChanged <|.. BaseViewModel
+class BaseViewModel {
+    + event PropertyChangedEventHandler? PropertyChanged
+    + void OnPropertyChanged(string propertyName)
+}
+
+BaseViewModel <|-- MainViewModel
+class MainViewModel {
+    + MenuMediatorService MenuMediatorService
+    + MainViewModel(MenuMediatorService)
+}
+
+BaseViewModel <|-- AuthorizationViewModel
+class AuthorizationViewModel {
+    - MenuMediatorService _menuMediator
+    + RelayCommand AuthorizationCommand
+    + RelayCommand ChangePasswordCommand
+    + AuthorizationViewModel(MenuMediatorService)
+    - void Authorization(object?)
+    - void ChangePassword(object?)
+    - void GoToMonitoringMenu()
+}
+
+BaseViewModel <|-- MonitoringViewModel
+class MonitoringViewModel {
+    - MenuMediatorService _menuMediator
+    + RelayCommand GoToReportsMenuCommand
+    + MonitoringViewModel(MenuMediatorService)
+    - void GoToReportsMenu(object?)
+}
+
+BaseViewModel <|-- ReportsViewModel
+class ReportsViewModel {
+    - MenuMediatorService _menuMediator
+    + RelayCommand GoToMonitoringMenuCommand
+    + ReportsViewModel(MenuMediatorService)
+    - void GoToMonitoringMenu(object?)
+}
+
+INotifyPropertyChanged <|.. MenuMediatorService
+class MenuMediatorService {
+    - AuthorizationViewModel? _authorizationMenu
+    - MonitoringViewModel? _monitoringMenu
+    - ReportsViewModel? _reportsViewModel
+    - BaseViewModel? _selectedMenu
+    + event PropertyChangedEventHandler? PropertyChanged
+    + BaseViewModel? SelectedMenu
+    + void SetMenus(AuthorizationViewModel, MonitoringViewModel, ReportsViewModel)
+    + void GoToAuthentacationMenu()
+    + void GoToMonitoringMenu()
+    + void GoToReportsMenu()
+}
+
+MainViewModel --> MenuMediatorService
+AuthorizationViewModel --> MenuMediatorService
+MonitoringViewModel --> MenuMediatorService
+ReportsViewModel --> MenuMediatorService
+
+' Взаємодія між RelayCommand та ViewModels
+RelayCommand --> AuthorizationViewModel : AuthorizationCommand
+RelayCommand --> AuthorizationViewModel : ChangePasswordCommand
+RelayCommand --> MonitoringViewModel
+RelayCommand --> ReportsViewModel
+
+@enduml
